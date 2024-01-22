@@ -1,0 +1,64 @@
+@font-face {
+    font-family: cursed-timer;
+    src: url("CursedTimer.ttf");
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+h1 {
+    font-size: 90px;
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #E5E7EB;
+}
+.container {
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 575px;
+    height: 385px;
+    background: #064E3B;
+    border-radius: 10px;
+}
+.titles {
+    margin: 0px 0 21px 0;
+}
+.score-card {
+    padding-top: 15px;
+    width: 155px;
+    font-family: cursed-timer;
+    background: black;
+    border-radius: 5px;
+}
+.points {
+    margin: 0;
+    color: #881337;
+}
+.all-buttons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.score-btn {
+    font-family: cursed-timer;
+    color: #A7F3D0;
+    margin-top: 26px;
+    padding: 9px 8px 9px 7px;
+    background: none;
+    border: 2px solid #A7F3D0;
+    border-radius: 5px;
+}
+#reset-btn {
+    font-family: cursed-timer;
+    padding: 9px 7px;
+    margin: -100px;
+    border: 2px solid #A7F3D0;
+    background: none;
+    border-radius: 5px;
+    color: #A7F3D0;
+}
